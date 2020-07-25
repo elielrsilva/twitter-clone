@@ -16,9 +16,9 @@ export default createGlobalStyle`
     height:100%
   }
   *, button, input {
-    border: 0,
-    background: none,
-    font-family: -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue',Ubuntu, Arial, sans-serif
+    border: 0;
+    background: none;
+    font-family: -apple-system, system-ui, 'Segoe UI', Roboto, 'Helvetica Neue',Ubuntu, Arial, sans-serif;
   }
   html {
     background: var(--primary);
