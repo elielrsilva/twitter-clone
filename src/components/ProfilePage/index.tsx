@@ -7,8 +7,10 @@ import {
   ProfileData, 
   LocationIcon, 
   CakeIcon, 
-  Followage 
+  Followage,
+  EditButton 
 } from './styles';
+import Feed from '../Feed';
 
 const ProfilePage = () => {
   return (
@@ -18,7 +20,7 @@ const ProfilePage = () => {
       </Banner>
 
       <ProfileData>
-        {/* <EditButton outilined>Edit profile</EditButton> */}
+        <EditButton outlined >Edit profile</EditButton>
 
         <h1>Eliel Silva</h1>
         <h2>@elielodeveloper</h2>
@@ -46,6 +48,9 @@ const ProfilePage = () => {
           </span>
         </Followage>
       </ProfileData>
+
+      <Feed/>
+
     </Container>
   )
 };
