@@ -48,6 +48,6 @@ const ProfilePage = () => {
       </ProfileData>
     </Container>
   )
-}
+};
 
 export default ProfilePage;
