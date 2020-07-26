@@ -121,7 +121,7 @@ const iconCSS = css`
 export const Status = styled.div`
   display: flex;
   align-items: center;
-  
+  font-size: 14px;
 
   > svg {
     margin-right: 5px;

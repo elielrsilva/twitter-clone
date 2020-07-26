@@ -45,7 +45,7 @@ const Tweet = () => {
                 18
             </Status>
             <Status>
-                <RetweetIcon/>
+                <RetweetIcon2/>
                 18
             </Status>
             <Status>
